@@ -55,8 +55,8 @@
         <label for="message">你的地圖簡介</label>
         <textarea id="message" name="message" rows="3" required></textarea>
         <!-- 新增的圖片上傳功能 -->
-        <label for="file">上傳圖片</label>
-        <input type="file" id="file" name="file" accept="image/*">
+        <!--label for="file">上傳圖片</label>
+        <input type="file" id="file" name="file" accept="image/*"-->
         <button type="submit">提交</button>
     </form>
     <input type="hidden" name="_captcha" value="false">
