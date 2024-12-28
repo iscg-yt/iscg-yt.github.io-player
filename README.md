@@ -46,21 +46,22 @@
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">地圖推薦 Map recommend</h1>
+    <h1 style="text-align: center;">地圖推薦 Map Recommend</h1>
     <form action="https://formspree.io/f/myzzwlwb" method="POST" enctype="multipart/form-data">
+        <!-- 使用者名字 -->
         <label for="name">你的名字</label>
         <input type="text" id="name" name="name" required>
-        <label for="message">你的地圖代碼</label>
-        <input type="message" id="message" name="message" rows="3" required>
-        <label for="message1">你的地圖名稱</label>
-        <textarea id="message1" name="message1" rows="1" required></textarea>
-        <label for="message2">你的地圖簡介</label>
-        <textarea id="message2" name="message2" rows="3" required></textarea>
-        <!-- 新增的圖片上傳功能 -->
-        <!--label for="file">上傳圖片</label>
-        <input type="file" id="file" name="file" accept="image/*"-->
+        <!-- 地圖名稱 -->
+        <label for="map_name">你的地圖名稱</label>
+        <input type="text" id="map_name" name="map_name" required>
+        <!-- 地圖代碼 -->
+        <label for="map_code">你的地圖代碼</label>
+        <input type="text" id="map_code" name="map_code" required>
+        <!-- 地圖簡介 -->
+        <label for="map_description">你的地圖簡介</label>
+        <textarea id="map_description" name="map_description" rows="3" required></textarea>
+        <!-- 提交按鈕 -->
         <button type="submit">提交</button>
     </form>
-    <input type="hidden" name="_captcha" value="false">
 </body>
 </html>
