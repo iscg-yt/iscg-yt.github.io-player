@@ -52,6 +52,8 @@
         <input type="text" id="name" name="name" required>
         <label for="message">你的地圖代碼</label>
         <input type="message" id="message" name="message" rows="3" required>
+        <label for="message">你的地圖名稱</label>
+        <textarea id="message" name="message" rows="1" required></textarea>
         <label for="message">你的地圖簡介</label>
         <textarea id="message" name="message" rows="3" required></textarea>
         <!-- 新增的圖片上傳功能 -->
