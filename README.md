@@ -51,11 +51,12 @@
     <form action="https://formspree.io/f/myzzwlwb" method="POST">
         <label for="name">你的名字</label>
         <input type="text" id="name" name="name" required>
-        <label for="email">你的電子郵件</label>
+        <label for="email">你的地圖代碼</label>
         <input type="email" id="email" name="email" required>
         <label for="message">你的問題</label>
         <textarea id="message" name="message" rows="5" required></textarea>
         <button type="submit">提交</button>
     </form>
+    <input type="hidden" name="_captcha" value="false">
 </body>
 </html>
