@@ -46,7 +46,7 @@
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">問題提交表單</h1>
+    <h1 style="text-align: center;">地圖推薦 Map recommend</h1>
     <form action="https://formspree.io/f/myzzwlwb" method="POST" enctype="multipart/form-data">
         <label for="name">你的名字</label>
         <input type="text" id="name" name="name" required>
