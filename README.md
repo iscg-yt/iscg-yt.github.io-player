@@ -52,10 +52,10 @@
         <input type="text" id="name" name="name" required>
         <label for="message">你的地圖代碼</label>
         <input type="message" id="message" name="message" rows="3" required>
-        <label for="message">你的地圖名稱</label>
-        <textarea id="message" name="message" rows="1" required></textarea>
-        <label for="message">你的地圖簡介</label>
-        <textarea id="message" name="message" rows="3" required></textarea>
+        <label for="message1">你的地圖名稱</label>
+        <textarea id="message1" name="message1" rows="1" required></textarea>
+        <label for="message2">你的地圖簡介</label>
+        <textarea id="message2" name="message2" rows="3" required></textarea>
         <!-- 新增的圖片上傳功能 -->
         <!--label for="file">上傳圖片</label>
         <input type="file" id="file" name="file" accept="image/*"-->
