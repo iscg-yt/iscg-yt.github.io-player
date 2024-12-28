@@ -47,7 +47,7 @@
 </head>
 <body>
     <h1 style="text-align: center;">地圖推薦 Map Recommend</h1>
-    <h2 style="text-align: center;">發送後我會審核後考慮加入本網頁</h2>
+    <h2 style="text-align: center;">“發送後我會審核後考慮加入本網頁“</h2>
     <form action="https://formspree.io/f/myzzwlwb" method="POST" enctype="multipart/form-data">
         <!-- 使用者名字 -->
         <label for="name">你的名字</label>
