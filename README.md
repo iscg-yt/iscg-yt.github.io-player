@@ -1,4 +1,3 @@
-# iscg-yt.github.io-player
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,13 +47,16 @@
 </head>
 <body>
     <h1 style="text-align: center;">問題提交表單</h1>
-    <form action="https://formspree.io/f/myzzwlwb" method="POST">
+    <form action="https://formspree.io/f/myzzwlwb" method="POST" enctype="multipart/form-data">
         <label for="name">你的名字</label>
         <input type="text" id="name" name="name" required>
-        <label for="email">你的地圖代碼</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">你的問題</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="message">你的地圖代碼</label>
+        <input type="message" id="message" name="message" rows="3" required>
+        <label for="message">你的地圖簡介</label>
+        <textarea id="message" name="message" rows="3" required></textarea>
+        <!-- 新增的圖片上傳功能 -->
+        <label for="file">上傳圖片</label>
+        <input type="file" id="file" name="file" accept="image/*">
         <button type="submit">提交</button>
     </form>
     <input type="hidden" name="_captcha" value="false">
